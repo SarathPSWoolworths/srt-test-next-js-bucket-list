@@ -1,8 +1,8 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  distDir: 'docs'
-  /* other config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: "/srt-test-next-js-bucket-list",
+  output: "export",
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
